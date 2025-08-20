@@ -1,0 +1,20 @@
+cat > .gitignore << 'EOF'
+__pycache__/
+*.py[cod]
+*.pyo
+
+.ipynb_checkpoints/
+.profile_default/
+*.xlsx
+*.csv
+!OnlineRetail.csv
+*.parquet
+outputs/
+exports/
+
+.venv/
+env/
+venv/
+
+.vscode/
+EOF
